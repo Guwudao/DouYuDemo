@@ -74,6 +74,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C072FFE23E5149E00353B41 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8C07300123E5149E00353B41 /* Main */,
+				8C072FFF23E5149E00353B41 /* Follow */,
+				8C07300023E5149E00353B41 /* Profile */,
+				8C07300223E5149E00353B41 /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8C072FFF23E5149E00353B41 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		8C07300023E5149E00353B41 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8C07300123E5149E00353B41 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8C07300223E5149E00353B41 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		8C1FDFF923E43B36005BFF57 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +136,7 @@
 		8C1FE00423E43B36005BFF57 /* DouYu */ = {
 			isa = PBXGroup;
 			children = (
+				8C072FFE23E5149E00353B41 /* Classes */,
 				8C1FE00523E43B36005BFF57 /* AppDelegate.swift */,
 				8C1FE00723E43B36005BFF57 /* ViewController.swift */,
 				8C1FE00923E43B36005BFF57 /* Main.storyboard */,
@@ -436,11 +476,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CJ54FD26Q8;
 				INFOPLIST_FILE = DouYu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Jackie.DouYu;
+				PRODUCT_BUNDLE_IDENTIFIER = Jackie.DouYu.demo.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,11 +496,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CJ54FD26Q8;
 				INFOPLIST_FILE = DouYu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Jackie.DouYu;
+				PRODUCT_BUNDLE_IDENTIFIER = Jackie.DouYu.demo.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
